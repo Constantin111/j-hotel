@@ -44,7 +44,7 @@
                         <div class="d_flex justify_center align_items wellcome-block__date-items">
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
-                                    <input type="text" maxlength="2" min="01" max="31" step="1" value="" name="oldDay" placeholder="ДД">
+                                    <input type="text" maxlength="2" id="oldDay"  name="oldDay" placeholder="ДД">
                                 </div>
                                 <div class="wellcome-block__date-item__text">
                                     День
@@ -52,7 +52,7 @@
                             </div>
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
-                                    <input type="text" maxlength="2" min="01" max="12" step="1" value="" name="oldMonth" placeholder="ММ">
+                                    <input type="text" maxlength="2"  id="oldMonth" name="oldMonth" placeholder="ММ">
                                 </div>
                                 <div class="wellcome-block__date-item__text">
                                     Месяц
@@ -60,7 +60,7 @@
                             </div>
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
-                                    <input type="text" maxlength="4" min="1910" max="2020" step="1" value="" name="oldYear" placeholder="ГГГГ">
+                                    <input type="text" maxlength="4" min="1910" max="2020" step="1"  id="oldYear" name="oldYear" placeholder="ГГГГ">
                                 </div>
                                 <div class="wellcome-block__date-item__text">
                                     Год
@@ -100,6 +100,14 @@
 <script src="js/jquery.inputmask.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+
+<script>
+    jQuery(function($){
+        $('#oldDay').inputmask('99');
+        $('#oldMonth').inputmask('99');
+        $('#oldYear').inputmask('9999');
+    });
+</script>
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>

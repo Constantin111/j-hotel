@@ -161,6 +161,14 @@ background: #002b10;
     padding-right: 30px;
 }
 
+input[type="text"]::-moz-placeholder {
+    color: rgb(239, 222, 161); /* Цвет подсказывающего текста */
+}
+input[type="text"]::-webkit-input-placeholder { color: rgb(239, 222, 161); }
+input[type="text"]:-ms-input-placeholder { color: rgb(239, 222, 161); }
+input[type="text"]::-ms-input-placeholder { color: rgb(239, 222, 161); }
+input[type="text"]::placeholder { color: rgb(239, 222, 161); }
+
 .wellcome-block__date-item__text {
     font-size: 57px;
     font-family: "jj bd";
