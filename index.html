@@ -44,7 +44,7 @@
                         <div class="d_flex justify_center align_items wellcome-block__date-items">
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
-                                    <input type="day" name="oldDay" placeholder="ДД">
+                                    <input type="text" maxlength="2" min="01" max="31" step="1" value="" name="oldDay" placeholder="ДД">
                                 </div>
                                 <div class="wellcome-block__date-item__text">
                                     День
@@ -52,7 +52,7 @@
                             </div>
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
-                                    <input type="number" min="01" max="12" step="1" value="" name="oldMonth" placeholder="ММ">
+                                    <input type="text" maxlength="2" min="01" max="12" step="1" value="" name="oldMonth" placeholder="ММ">
                                 </div>
                                 <div class="wellcome-block__date-item__text">
                                     Месяц
@@ -60,7 +60,7 @@
                             </div>
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
-                                    <input type="year" name="oldYear" placeholder="ГГГГ">
+                                    <input type="text" maxlength="4" min="1910" max="2020" step="1" value="" name="oldYear" placeholder="ГГГГ">
                                 </div>
                                 <div class="wellcome-block__date-item__text">
                                     Год
