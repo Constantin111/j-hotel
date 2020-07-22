@@ -108,16 +108,18 @@
 префиксы для flex-элементов
 ******************************/
 
+
 .section-wrap {
     width: 100%;
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'jj rg';
+    color: rgb(239, 222, 161);
 }
 
-.section-1 {
-background: #002b10;
+.section-1,.section-2,.section-4 {
+    background: #002b10;
 }
 
 .wellcome-block {
@@ -164,10 +166,22 @@ background: #002b10;
 input[type="text"]::-moz-placeholder {
     color: rgb(239, 222, 161); /* Цвет подсказывающего текста */
 }
-input[type="text"]::-webkit-input-placeholder { color: rgb(239, 222, 161); }
-input[type="text"]:-ms-input-placeholder { color: rgb(239, 222, 161); }
-input[type="text"]::-ms-input-placeholder { color: rgb(239, 222, 161); }
-input[type="text"]::placeholder { color: rgb(239, 222, 161); }
+
+input[type="text"]::-webkit-input-placeholder {
+    color: rgb(239, 222, 161);
+}
+
+input[type="text"]:-ms-input-placeholder {
+    color: rgb(239, 222, 161);
+}
+
+input[type="text"]::-ms-input-placeholder {
+    color: rgb(239, 222, 161);
+}
+
+input[type="text"]::placeholder {
+    color: rgb(239, 222, 161);
+}
 
 .wellcome-block__date-item__text {
     font-size: 57px;
@@ -194,7 +208,6 @@ input[type="text"]::placeholder { color: rgb(239, 222, 161); }
     cursor: pointer;
 }
 
-
 .wellcome-block__attention-text {
     font-size: 24px;
     font-family: 'jj bk';
@@ -202,3 +215,179 @@ input[type="text"]::placeholder { color: rgb(239, 222, 161); }
     line-height: 1.1;
     text-align: center;
 }
+
+/*  ///////////////////   section-2  ///////////////////  */
+
+.wellcome-block__title-text.section__2 {
+    font-size: 47px;
+}
+
+.wellcome-block__afisha-title {
+    margin-top: 145px;
+    margin-bottom: 170px;
+}
+
+.afisha-title__text {
+    font-size: 145px;
+    font-family: "SONGERT_G_Bold";
+    color: rgb(239, 222, 161);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.784;
+    text-align: center;
+}
+
+.wellcome-block__attention-text__news, .wellcome-block__attention-link {
+    font-size: 36px;
+    font-family: 'jj bd';
+    color: rgb(239, 222, 161);
+    font-weight: bold;
+    line-height: 0.936;
+    text-align: center;
+}
+
+.wellcome-block__attention-text__news span {
+    font-family: "SONGERT_G_Bold";
+}
+
+.wellcome-block__attention-link {
+    margin-top: 60px;
+}
+
+.wellcome-block__attention-link a {
+    text-decoration: none;
+    color: rgb(239, 222, 161);
+}
+
+.wellcome-block__attention-link a:hover {
+    text-decoration: underline;
+}
+
+/*  ///////////////////   section-3  ///////////////////  */
+
+.section-3__block-wrap {
+    position: relative;
+}
+
+.section-3__block-wrap img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.section-3__block-content__wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../img/section-3-content-bg.png") no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.section-3__block-content__logo {
+    text-align: center;
+    margin-top: 12%;
+}
+
+.section-3__block-content__logo-text {
+    font-size: 49px;
+    font-family: "jj bd";
+    color: rgb(239, 222, 161);
+    text-transform: uppercase;
+}
+
+.section-3__bottom-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 80px;
+    font-family: "SONGERT_G_Bold";
+    color: rgb(239, 222, 161);
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.section-3__bottom-text img {
+    width: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ///////////////////// section-4 //////////////////////// */
+
+.section-4 {
+    padding-top: 63px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.section-4__content-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-4__content-item-1 {
+    width: 25%;
+}
+
+.section-4__content-item-2 {
+    width: 40%;
+}
+.section-4__content-item-3 {
+    width: 35%;
+}
+.section-4__content-item-2 img {
+    width: 100%;
+    max-width: 100%;
+}
+.section-4__bottom-text {
+
+}
+.section-4__bottom-text img {
+    width: 100%;
+    max-width: 100%;
+}
+.section-4__bottom-text {
+    padding-top: 50px;
+}
+.section-4__content-title {
+    font-size: 59px;
+    color: rgb(254, 242, 194);
+    text-align: center;
+    font-weight: bold;
+    font-family: "SONGERT_G_Bold";
+    line-height: 0.85;
+}
+
+.section-4__block-wrap p {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 300;
+}
+.section-4__block-wrap p span {
+    font-weight: bold;
+    font-family: "SONGERT_G_Bold";
+    text-transform: uppercase;
+}
+.section-4__block-wrap p.bold-text {
+    font-weight: bold;
+}
+
+
+
+
+
+
