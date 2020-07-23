@@ -37,18 +37,28 @@ $(function () {
     });
 
     $(".wellcome-block__date-acces__btn").click(function () {
-        $(".age-gate__block").removeClass('active');
-        $(".post-age-gate__block").addClass("active");
-        new fullpage('#fullpage', {
-            navigation: true,
-            responsiveWidth: 700,
-            anchors: ['home', 'about-us', 'contact'],
-            parallax: true,
-            onLeave: function(origin, destination, direction){
-                console.log("Leaving section" + origin.index);
-            },
-        });
-    })
+
+        var oldDay = $("#oldDay").val();
+        var oldMonth = $("#oldMonth").val();
+        var oldYear = $("#oldYear").val();
+
+        if (oldDay =="" || oldMonth == "" || oldYear == "") {
+            alert('Введите дату рождения' + oldDay + oldMonth + oldYear);
+
+        } else {
+            $(".age-gate__block").removeClass('active');
+            $(".post-age-gate__block").addClass("active");
+            new fullpage('#fullpage', {
+                navigation: true,
+                responsiveWidth: 700,
+                anchors: ['home', 'about-us', 'contact'],
+                parallax: true,
+                onLeave: function (origin, destination, direction) {
+                    console.log("Leaving section" + origin.index);
+                },
+            });
+        }
+    });
 
 
 });
