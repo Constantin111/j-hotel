@@ -107,7 +107,21 @@
 /******************************
 префиксы для flex-элементов
 ******************************/
+.age-gate__block {
+    display: none;
+}
 
+.age-gate__block.active {
+    display: block;
+}
+
+.post-age-gate__block {
+    display: none;
+}
+
+.post-age-gate__block.active {
+    display: block;
+}
 
 .section-wrap {
     width: 100%;
@@ -118,7 +132,7 @@
     color: rgb(239, 222, 161);
 }
 
-.section-1,.section-2,.section-4 {
+.age-gate__block,.section-2,.section-4 {
     background: #002b10;
 }
 
@@ -344,10 +358,10 @@ input[type="text"]::placeholder {
 }
 
 .section-4__content-item-2 {
-    width: 40%;
+    width: 45%;
 }
 .section-4__content-item-3 {
-    width: 35%;
+    width: 30%;
 }
 .section-4__content-item-2 img {
     width: 100%;
@@ -364,7 +378,7 @@ input[type="text"]::placeholder {
     padding-top: 50px;
 }
 .section-4__content-title {
-    font-size: 59px;
+    font-size: 75px;
     color: rgb(254, 242, 194);
     text-align: center;
     font-weight: bold;
@@ -373,9 +387,11 @@ input[type="text"]::placeholder {
 }
 
 .section-4__block-wrap p {
-    font-size: 17px;
+    font-size: 21px;
     text-align: center;
     font-weight: 300;
+    font-family: 'jj lt';
+    line-height: 1.2;
 }
 .section-4__block-wrap p span {
     font-weight: bold;
@@ -384,8 +400,26 @@ input[type="text"]::placeholder {
 }
 .section-4__block-wrap p.bold-text {
     font-weight: bold;
+    font-family: 'jj bd';
 }
 
+.Jameson_представляет_«J_Hotel:_Музыкальные_номе {
+    font-size: 21px;
+    font-family: "JJ";
+    color: rgb(239, 222, 161);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 0.99517029318425,0,0,0.99448871857121,0,0);
+    -webkit-transform: matrix( 0.99517029318425,0,0,0.99448871857121,0,0);
+    -ms-transform: matrix( 0.99517029318425,0,0,0.99448871857121,0,0);
+    position: absolute;
+    left: 1349.885px;
+    top: 186.646px;
+    width: 515.204px;
+    height: 568.875px;
+    z-index: 12;
+}
 
 
 
