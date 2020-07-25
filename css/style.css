@@ -58,6 +58,19 @@
     justify-content: center;
 }
 
+.justify_end {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.justify_start {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
 .d-align-content {
     align-content: space-around;
     -webkit-align-content: space-around;
@@ -69,6 +82,19 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center
+}
+.align_bottom {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.align_top {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
 }
 
 /******************************
@@ -107,6 +133,11 @@
 /******************************
 префиксы для flex-элементов
 ******************************/
+
+div {
+    position: relative;
+}
+
 .age-gate__block {
     display: none;
 }
@@ -132,7 +163,7 @@
     color: rgb(239, 222, 161);
 }
 
-.age-gate__block,.section-2,.section-4 {
+.age-gate__block,.section-2,.section-4,.section-7 {
     background: #002b10;
 }
 
@@ -403,23 +434,135 @@ input[type="text"]::placeholder {
     font-family: 'jj bd';
 }
 
-.Jameson_представляет_«J_Hotel:_Музыкальные_номе {
-    font-size: 21px;
-    font-family: "JJ";
-    color: rgb(239, 222, 161);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: center;
-    -moz-transform: matrix( 0.99517029318425,0,0,0.99448871857121,0,0);
-    -webkit-transform: matrix( 0.99517029318425,0,0,0.99448871857121,0,0);
-    -ms-transform: matrix( 0.99517029318425,0,0,0.99448871857121,0,0);
-    position: absolute;
-    left: 1349.885px;
-    top: 186.646px;
-    width: 515.204px;
-    height: 568.875px;
-    z-index: 12;
+.section-5,.section-6 {
+    background: url("../img/section-5-bg.jpg") no-repeat;
+    background-size: cover;
+    padding: 50px;
 }
+.section-5__gallery-block {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.section-5__gallery-block__items {
+    height: 400px;
+}
+
+.gallery-block__items-1 .section-5__gallery-block__item {
+    width: 20%;
+}
+
+.gallery-block__items-2 .section-5__gallery-block__item {
+    width: 20%;
+}
+
+.gallery-block__items-2 {
+    z-index: 2;
+}
+
+.section-5__gallery-block__item {
+    /*position: absolute;*/
+}
+
+.section-5__gallery-block__item img {
+    width: auto;
+    height: auto;
+    /*position: absolute;*/
+    height: fit-content;
+}
+
+.gallery-block__item-1 {
+    /*left: 0;*/
+}
+.gallery-block__item-2 {
+    /*margin-left: auto;*/
+    z-index: 1;
+}
+.gallery-block__item-3 {
+    /*right: 0;*/
+}
+
+.gallery-block__item-4 {
+    z-index: 1;
+}
+
+.gallery-block__item-7 {
+    z-index: 1;
+}
+
+.section-5__bottom-text img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.section-5__bottom-text {
+    margin-top: 50px;
+}
+
+
+
+.section-6__banner-center {
+    margin-top: 50px;
+}
+
+.section-6__video-center {
+    background: url("../img/section-6-baner-center.png") no-repeat;
+    background-size: contain;
+    /*height: 30%;*/
+    width: 100%;
+    padding: 52px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.section-6__video-wrap {
+    width: 33%;
+    padding: 10px;
+}
+
+
+.section-7__block-wrap {
+    padding: 50px;
+}
+
+.section-7__block-top__text {
+    font-size: 35px;
+    font-family: "jj rg";
+    color: rgb(239, 222, 161);
+    text-align: center;
+    margin-bottom: 134px;
+}
+
+.section-7__block-center-1,.section-7__block-center-3 {
+    padding-top: 53px;
+    padding-bottom: 53px;
+    width: 23%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.section-7__block-center-1 {
+    padding-right: 30px;
+}
+.section-7__block-center-3 {
+    padding-left: 30px;
+}
+
+.section-7__block-center__item-block {
+    border: 2px dashed rgb(239, 222, 161);
+    width: 100%;
+}
+
+.section-7__block-center-2 {
+    width: 54%;
+}
+.section-7__block-center-2 img {
+    width: 100%;
+    height: auto;
+}
+
 
 
 
