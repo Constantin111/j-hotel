@@ -19,15 +19,15 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/fullpage.min.css">
+    <link rel="stylesheet" href="css/soon.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <script src="js/soon.min.js"></script>
     <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
-
-<!-- Add your site or application content here -->
 <div class="wrap global-wrap">
     <div class="wrap section-wrap">
         <div class="age-gate__block active">
@@ -46,7 +46,7 @@
                         <div class="d_flex justify_center align_items wellcome-block__date-items">
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
-                                    <input type="text" maxlength="2" id="oldDay" name="oldDay" placeholder="ДД">
+                                    <input type="text" maxlength="2" id="oldDay" name="oldDay" placeholder="ДД" autofocus>
                                 </div>
                                 <div class="wellcome-block__date-item__text">
                                     День
@@ -54,7 +54,7 @@
                             </div>
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
-                                    <input type="text" maxlength="2" id="oldMonth" name="oldMonth" placeholder="ММ">
+                                    <input tabindex="1" type="text" maxlength="2" id="oldMonth" name="oldMonth" placeholder="ММ">
                                 </div>
                                 <div class="wellcome-block__date-item__text">
                                     Месяц
@@ -62,7 +62,7 @@
                             </div>
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
-                                    <input type="text" maxlength="4" min="1910" max="2020" step="1" id="oldYear"
+                                    <input tabindex="2" type="text" maxlength="4" min="1910" max="2020" step="1" id="oldYear"
                                            name="oldYear" placeholder="ГГГГ">
                                 </div>
                                 <div class="wellcome-block__date-item__text">
@@ -268,7 +268,24 @@
                 <div class="section-7__block-wrap">
                     <div class="section-7__block-top__text">
                         Прямая трансляция начнется через:
+
                         <div class="d_flex justify_center section-7__block-center__count">
+
+
+                            <!--<div class="soon" id="my-soon-counter"
+                                 data-due="2020-11-22T23:27:48"
+                                 data-layout="group tight label-small label-above"
+                                 data-scale-max="m"
+                                 data-separate-chars="false"
+                                 data-reflect="true"
+                                 data-face="flip color-dark corners-round"
+                                 data-format="d,h,m,s"
+                                 data-labels-days="Дни,Дней"
+                                 data-labels-hours="Часы,Часов"
+                                 data-labels-minutes="Минуты,Минут"
+                                 data-labels-seconds="Секунды,Секунд">
+                            </div>-->
+
                             <script src="//megatimer.ru/get/10e18b24df0dc62757a8cea0e5e8b784.js"></script>
                         </div>
                     </div>
@@ -294,14 +311,13 @@
         </div>
 
 
-
     </div>
 
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-<script src="js/jquery.inputmask.min.js"></script>
+<!--<script src="js/jquery.inputmask.min.js"></script>-->
 <script src="js/plugins.js"></script>
 <script src="js/fullpage.js"></script>
 <script src="js/main.js"></script>

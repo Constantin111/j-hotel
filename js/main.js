@@ -26,10 +26,10 @@ $(function () {
         ;
     });
 
-    $(document).on("change keyup input click", "#oldYear", function () {
+    $(document).on("blur", "#oldYear", function () {
 
         var thisValue = this.value;
-        if (thisValue > 2020) {
+        if (thisValue > 2020 || thisValue < 1920) {
             alert('некоректное значение');
             $(this).val("");
         }
@@ -60,6 +60,17 @@ $(function () {
         }
     });
 
+    $('#oldDay').keyup(function(){
+        if($(this).val().length == 2){
+            $('#oldMonth').focus();
+        }
+    });
+
+    $('#oldMonth').keyup(function(){
+        if($(this).val().length == 2){
+            $('#oldYear').focus();
+        }
+    });
 
 });
 
