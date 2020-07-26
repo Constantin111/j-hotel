@@ -22,12 +22,34 @@
     <link rel="stylesheet" href="css/fullpage.min.css">
     <link rel="stylesheet" href="css/soon.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-style.css">
 
     <script src="js/soon.min.js"></script>
     <meta name="theme-color" content="#fafafa">
+
+    <script type="text/javascript">
+        timeend= new Date();
+        // IE и FF по разному отрабатывают getYear()
+        timeend= new Date(timeend.getYear()>1900?(timeend.getYear()+1):(timeend.getYear()+1901),0,1);
+        // для задания обратного отсчета до определенной даты укажите дату в формате:
+        // timeend= new Date(ГОД, МЕСЯЦ-1, ДЕНЬ);
+        // Для задания даты с точностью до времени укажите дату в формате:
+        // timeend= new Date(ГОД, МЕСЯЦ-1, ДЕНЬ, ЧАСЫ-1, МИНУТЫ);
+        function time() {
+            today = new Date();
+            today = Math.floor((timeend-today)/1000);
+            tsec=today%60; today=Math.floor(today/60); if(tsec<10)tsec='0'+tsec;
+            tmin=today%60; today=Math.floor(today/60); if(tmin<10)tmin='0'+tmin;
+            thour=today%24; today=Math.floor(today/24);
+            timestr=today +" дней "+ thour+" часов "+tmin+" минут "+tsec+" секунд";
+            document.getElementById('t').innerHTML=timestr;
+            window.setTimeout("time()",1000);
+        }
+    </script>
 </head>
 
-<body>
+
+<body onload="time()">
 
 <div class="wrap global-wrap">
     <div class="wrap section-wrap">
@@ -127,7 +149,8 @@
 
             <section class="section section-block section-3">
                 <div class="section-3__block-wrap">
-                    <img src="img/section-3-bg.jpg" alt="">
+                    <img src="img/section-3-bg.jpg" alt="" class="desck-top-img">
+                    <img src="img/screen2-mob-bg.jpg" alt="" class="mob-top-img">
                     <div class="section-3__block-content__wrap">
                         <div class="d_flex space_between section-3__block-content__logo-row">
                             <div class="section-3__block-content__logo">
@@ -143,7 +166,11 @@
                         </div>
 
                         <div class="section-3__bottom-text">
-                            <img src="img/section-5-baner-bottom.png" alt="">
+                            <img class="" src="img/section-5-baner-bottom.png" alt="">
+                        </div>
+                        <div class="section-3__bottom-text bottom-tetx-mob">
+                            <img class="" src="img/banner-bottom-mob-1.png" alt="">
+                            <img class="" src="img/banner-bottom-mob-2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -201,8 +228,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="section-4__bottom-text">
+                    <div class="section-3__bottom-text section-4__bottom-text">
                         <img src="img/section-5-baner-bottom.png" alt="">
+                    </div>
+                    <div class="section-3__bottom-text bottom-tetx-mob">
+                        <img class="" src="img/banner-bottom-mob-1.png" alt="">
+                        <img class="" src="img/banner-bottom-mob-2.png" alt="">
                     </div>
                 </div>
             </section>
@@ -246,7 +277,7 @@
             </section>
 
             <section class="section section-block section-9">
-                <div class="section-9__block-wrap">
+                <div class="d_flex justify_center section-9__block-wrap">
                     <img src="img/section-9-1-bg.jpg" alt="">
                 </div>
             </section>
@@ -304,21 +335,9 @@
                         <div class="d_flex justify_center section-7__block-center__count">
 
 
-                            <!--<div class="soon" id="my-soon-counter"
-                                 data-due="2020-11-22T23:27:48"
-                                 data-layout="group tight label-small label-above"
-                                 data-scale-max="m"
-                                 data-separate-chars="false"
-                                 data-reflect="true"
-                                 data-face="flip color-dark corners-round"
-                                 data-format="d,h,m,s"
-                                 data-labels-days="Дни,Дней"
-                                 data-labels-hours="Часы,Часов"
-                                 data-labels-minutes="Минуты,Минут"
-                                 data-labels-seconds="Секунды,Секунд">
-                            </div>-->
+                            <p> <span id="t" style="font-size:20px"></span></p>
 
-                            <script src="//megatimer.ru/get/10e18b24df0dc62757a8cea0e5e8b784.js"></script>
+                            <!--<script src="//megatimer.r.u/get/10e18b24df0dc62757a8cea0e5e8b784.js"></script>-->
                         </div>
                     </div>
 
@@ -528,8 +547,9 @@
         },
     });
 
-
 </script>
+
+
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>

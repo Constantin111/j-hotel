@@ -27,9 +27,9 @@
 }
 
 .f_wrap {
-    flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .d-flex-flow {
@@ -650,6 +650,16 @@ input[type="text"]::placeholder {
     line-height: 1.2;
     text-align: center;
     text-decoration: none;
+}
+
+.bottom-tetx-mob {
+    display: none;
+}
+.desck-top-img {
+    display: block;
+}
+.mob-top-img {
+    display: none;
 }
 
 input:-internal-autofill {
