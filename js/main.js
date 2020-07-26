@@ -27,13 +27,29 @@ $(function () {
     });
 
     $(document).on("blur", "#oldYear", function () {
-
+        var oldDay = $("#oldDay").val();
+        var oldMonth = $("#oldMonth").val();
+        var oldYear = $("#oldYear").val();
         var thisValue = this.value;
         if (thisValue > 2020 || thisValue < 1920) {
             alert('некоректное значение');
             $(this).val("");
+        }else if(oldDay =="" || oldMonth == "" || oldYear == ""){
+            alert('Введите дату рождения');
+        } else {
+            $(".age-gate__block").removeClass('active');
+            $(".post-age-gate__block").addClass("active");
+            new fullpage('#fullpage', {
+                navigation: true,
+                responsiveWidth: 700,
+                anchors: ['home', 'about-us', 'contact'],
+                parallax: true,
+                onLeave: function (origin, destination, direction) {
+                    console.log("Leaving section" + origin.index);
+                },
+            });
         }
-        ;
+        $(this).on('blur');
     });
 
     $(".wellcome-block__date-acces__btn").click(function () {

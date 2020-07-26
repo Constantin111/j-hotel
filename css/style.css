@@ -186,6 +186,11 @@ div, section  {
     margin-bottom: 17px;
 }
 
+.wellcome-block__title-description {
+    padding-top: 30px;
+    font-size: 55px;
+}
+
 .wellcome-block__date-items {
     padding-top: 40px;
 }
@@ -267,6 +272,10 @@ input[type="text"]::placeholder {
 }
 
 /*  ///////////////////   section-2  ///////////////////  */
+
+.section.section-block.section-2 {
+    display: none!important;
+}
 
 .wellcome-block__title-text.section__2 {
     font-size: 47px;
@@ -389,6 +398,10 @@ input[type="text"]::placeholder {
     padding-bottom: 50px;
 }
 
+.section-3__bottom-text.section-4__bottom-text {
+    position: relative;
+}
+
 .section-3__bottom-text img {
     width: auto;
     max-width: 100%;
@@ -407,8 +420,8 @@ input[type="text"]::placeholder {
 }
 
 .section-4__content-item {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .section-4__content-item-1 {
@@ -445,11 +458,18 @@ input[type="text"]::placeholder {
 }
 
 .section-4__block-wrap p {
-    font-size: 21px;
+    font-size: 20px;
     text-align: center;
     font-weight: 300;
     font-family: 'jj lt';
     line-height: 1.2;
+}
+.section-4__content-text {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.section-4__content-text p {
+    font-size: 21px;
 }
 .section-4__block-wrap p span {
     font-weight: bold;
@@ -558,7 +578,11 @@ input[type="text"]::placeholder {
     font-family: "jj rg";
     color: rgb(239, 222, 161);
     text-align: center;
-    margin-bottom: 94px;
+    margin-bottom: 10px;
+}
+
+.section-7__block-center__count #t {
+    font-size: 35px !important;
 }
 
 .section-7__block-center-1,.section-7__block-center-3 {
