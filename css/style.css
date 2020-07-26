@@ -165,7 +165,7 @@ div {
     color: rgb(239, 222, 161);
 }
 
-.age-gate__block,.section-2,.section-4,.section-7,.section-8 {
+.age-gate__block,.section-2,.section-4,.section-7,.section-8,.section-wrap {
     background: #002b10;
 }
 
@@ -604,7 +604,7 @@ input[type="text"]::placeholder {
 .section-9__block-wrap {
 
 }
-.section-9__block-wrap img {
+.section-9__block-wrap img,.section-10__block-wrap img {
     width: 100%;
     max-width: 100%;
 }
