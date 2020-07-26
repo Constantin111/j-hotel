@@ -72,11 +72,25 @@ $(function () {
         }
     });
 
+
+    $('.main').ready(function () {
+
+    });
+
+    $('.main').on("DOMNodeInserted", function (event) {
+
+
+
+    });
+
+
+
+
 });
 
-jQuery(function ($) {
+/*jQuery(function ($) {
     $('#oldDay').inputmask('99');
     $('#oldMonth').inputmask('99');
     $('#oldYear').inputmask('9999');
-});
+});*/
 

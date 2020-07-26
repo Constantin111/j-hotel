@@ -147,11 +147,13 @@ div {
 }
 
 .post-age-gate__block {
-    display: none;
+    display: block;
+    height: 0;
+    overflow: hidden;
 }
 
 .post-age-gate__block.active {
-    display: block;
+    height: unset;
 }
 
 .section-wrap {
@@ -163,7 +165,7 @@ div {
     color: rgb(239, 222, 161);
 }
 
-.age-gate__block,.section-2,.section-4,.section-7 {
+.age-gate__block,.section-2,.section-4,.section-7,.section-8 {
     background: #002b10;
 }
 
@@ -310,8 +312,13 @@ input[type="text"]::placeholder {
 
 /*  ///////////////////   section-3  ///////////////////  */
 
+.section-3 {
+
+}
+
 .section-3__block-wrap {
     position: relative;
+
 }
 
 .section-3__block-wrap img {
@@ -328,14 +335,16 @@ input[type="text"]::placeholder {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    background: url("../img/section-3-content-bg.png") no-repeat;
+    /*background: url("../img/section-3-content-bg.png") no-repeat;
     background-position: bottom;
-    background-size: contain;
+    background-size: contain;*/
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.section-3__block-content__logo {
+.section-3__block-content__logo-row {
     text-align: center;
-    margin-top: 12%;
+    margin-top: 26%;
 }
 
 .section-3__block-content__logo-text {
@@ -343,6 +352,20 @@ input[type="text"]::placeholder {
     font-family: "jj bd";
     color: rgb(239, 222, 161);
     text-transform: uppercase;
+}
+
+.section-3__block-content__logo {
+    padding-left: 50px;
+}
+
+.section-3__block-content__logo-text-2 {
+    font-size: 88px;
+    font-family: "SONGERT_G_Bold";
+    /*color: rgb(254, 242, 194);*/
+    color: rgb(239, 222, 161);
+    line-height: 1;
+    text-align: center;
+    padding-right: 50px;
 }
 
 .section-3__bottom-text {
@@ -360,6 +383,7 @@ input[type="text"]::placeholder {
     overflow: hidden;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 50px;
 }
 
 .section-3__bottom-text img {
@@ -562,6 +586,29 @@ input[type="text"]::placeholder {
     width: 100%;
     height: auto;
 }
+
+
+.section-8__block-text {
+    text-align: center;
+    font-size: 27px;
+    font-family: "SONGERT_G_Regular";
+    color: rgb(239, 222, 161);
+    font-weight: bold;
+    font-variant: small-caps;
+    line-height: 1.125;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+
+.section-9__block-wrap {
+
+}
+.section-9__block-wrap img {
+    width: 100%;
+    max-width: 100%;
+}
+
 
 
 

@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="css/fullpage.min.css">
     <link rel="stylesheet" href="css/soon.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -46,7 +47,8 @@
                         <div class="d_flex justify_center align_items wellcome-block__date-items">
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
-                                    <input type="text" maxlength="2" id="oldDay" name="oldDay" placeholder="ДД" autofocus>
+                                    <input type="text" maxlength="2" id="oldDay" name="oldDay" placeholder="ДД"
+                                           autofocus>
                                 </div>
                                 <div class="wellcome-block__date-item__text">
                                     День
@@ -54,7 +56,8 @@
                             </div>
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
-                                    <input tabindex="1" type="text" maxlength="2" id="oldMonth" name="oldMonth" placeholder="ММ">
+                                    <input tabindex="1" type="text" maxlength="2" id="oldMonth" name="oldMonth"
+                                           placeholder="ММ">
                                 </div>
                                 <div class="wellcome-block__date-item__text">
                                     Месяц
@@ -62,7 +65,8 @@
                             </div>
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
-                                    <input tabindex="2" type="text" maxlength="4" min="1910" max="2020" step="1" id="oldYear"
+                                    <input tabindex="2" type="text" maxlength="4" min="1910" max="2020" step="1"
+                                           id="oldYear"
                                            name="oldYear" placeholder="ГГГГ">
                                 </div>
                                 <div class="wellcome-block__date-item__text">
@@ -92,6 +96,7 @@
         </div>
 
         <div id="fullpage" class="main post-age-gate__block">
+
 
             <section class="section section-block section-2">
                 <div class="block-wrap wellcome-block">
@@ -124,14 +129,21 @@
                 <div class="section-3__block-wrap">
                     <img src="img/section-3-bg.jpg" alt="">
                     <div class="section-3__block-content__wrap">
-                        <div class="section-3__block-content__logo">
-                            <img src="img/logo-3.png" alt="">
-                            <div class="section-3__block-content__logo-text">
-                                представляет
+                        <div class="d_flex space_between section-3__block-content__logo-row">
+                            <div class="section-3__block-content__logo">
+                                <img src="img/logo-3.png" alt="">
+                                <div class="section-3__block-content__logo-text">
+                                    представляет
+                                </div>
+                            </div>
+                            <div class="section-3__block-content__logo-text-2">
+                                МУЗЫКАЛЬНЫЕ<br>
+                                НОМЕРА
                             </div>
                         </div>
+
                         <div class="section-3__bottom-text">
-                            <img src="img/section-3-baner-bottom.png" alt="">
+                            <img src="img/section-5-baner-bottom.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -150,6 +162,12 @@
                                         Оператор-постановщик <span>Филипп Задорожный</span></p>
                                     <p>В роли портье <span>Игорь Бычков</span><br>
                                         Молодожены <span>Соня Мунтян</span> и <span>Саша Сколков</span></p>
+
+                                    <p class="bold-text">Jameson представляет <span>«J Hotel: Музыкальные номера»</span>
+                                        —
+                                        киноальманах, в котором российские музыканты играют новые песни
+                                        живьем и чудят.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -158,29 +176,33 @@
                         </div>
                         <div class="d_flex justify_center align_items section-4__content-item section-4__content-item-3">
                             <div class="section-4__content-text">
-                                <p class="bold-text">Jameson представляет <span>«J Hotel: Музыкальные номера»</span> —
-                                    киноальманах, в котором российские музыканты играют новые песни живьем и чудят.
-                                </p>
-                                <p>У портье мистического J Hotel начинается ночная смена. Ночью комнаты постояльцев
-                                    перестают быть зоной отдыха, начинаются проделки. Из-за дверей доносятся стуки
-                                    конгов,
-                                    голоса африканского хора и гитарный рокот. «Кто позволяет себе эти децибелы?», —
-                                    реагирует на происходящее внутренний голос портье. Наш герой идет на звук,
+
+                                <p>У портье мистического J Hotel начинается ночная смена. Ночью комнаты
+                                    постояльцев
+                                    перестают быть зоной отдыха, начинаются проделки. Из-за дверей доносятся
+                                    стуки
+                                    конгов, голоса африканского хора и гитарный рокот. «Кто позволяет себе
+                                    эти
+                                    децибелы?», — реагирует
+                                    на происходящее внутренний голос портье. Наш герой идет на звук,
                                     поддавшись
-                                    любопытству — просить ущипнуть некого, остается только заглянуть в замочную
+                                    любопытству — просить ущипнуть некого, остается только заглянуть в
+                                    замочную
                                     скважину.
                                 </p>
                                 <p>Приличные аннотации путают сюжет и не скрывают звезд. Эмо-рокеры <span>«Пасош»</span>
                                     официально сыграют свой самый маленький концерт. Поп-артистка <span>Kate NV</span>
-                                    соберет пижамную вечеринку, на которой все рассказанные тайны останутся между вами.
-                                    Группа <span>«СБПЧ»</span> покажет трюк: как разместить 11 человек в двухместном
+                                    соберет пижамную вечеринку, на которой все рассказанные тайны останутся
+                                    между вами.
+                                    Группа <span>«СБПЧ»</span> покажет трюк: как разместить 11 человек в
+                                    двухместном
                                     номере
                                     и вашем сердечке одновременно.</p>
                             </div>
                         </div>
                     </div>
                     <div class="section-4__bottom-text">
-                        <img src="img/section-3-baner-bottom.png" alt="">
+                        <img src="img/section-5-baner-bottom.png" alt="">
                     </div>
                 </div>
             </section>
@@ -223,6 +245,12 @@
                 </div>
             </section>
 
+            <section class="section section-block section-9">
+                <div class="section-9__block-wrap">
+                    <img src="img/section-9-1-bg.jpg" alt="">
+                </div>
+            </section>
+
             <section class="section section-block section-6">
                 <div class="section-6__block-wrap">
                     <div class="d_flex space_between section-6__gallery-block">
@@ -239,19 +267,22 @@
                     <div class="section-6__banner-center">
                         <div class="d_flex section-6__video-center">
                             <div class="section-6__video-wrap">
-                                <iframe width="100%" height="300" src="https://www.youtube.com/embed/W6rwWHGHMPI"
+                                <iframe width="100%" height="300"
+                                        src="https://www.youtube.com/embed/W6rwWHGHMPI"
                                         frameborder="0"
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                         allowfullscreen></iframe>
                             </div>
                             <div class="section-6__video-wrap">
-                                <iframe width="100%" height="300" src="https://www.youtube.com/embed/KXWiH8kGGmA"
+                                <iframe width="100%" height="300"
+                                        src="https://www.youtube.com/embed/KXWiH8kGGmA"
                                         frameborder="0"
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                         allowfullscreen></iframe>
                             </div>
                             <div class="section-6__video-wrap">
-                                <iframe width="100%" height="300" src="https://www.youtube.com/embed/F7jQqU1n_4w"
+                                <iframe width="100%" height="300"
+                                        src="https://www.youtube.com/embed/F7jQqU1n_4w"
                                         frameborder="0"
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                         allowfullscreen></iframe>
@@ -263,6 +294,7 @@
                     </div>
                 </div>
             </section>
+
 
             <section class="section section-block section-7">
                 <div class="section-7__block-wrap">
@@ -308,7 +340,134 @@
                 </div>
             </section>
 
+
+            <section class="section section-block section-8">
+                <div class="section-8__block-wrap">
+                    <div class="swiper-container1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="section-8__block-text">
+                                    режиссер ПАВЕЛ КЛИНГ оператор-постановщик ФИЛИПП ЗАДОРОЖНЫЙ<br>
+                                    продюсеры КАТЯ ВОЛКОВА АЛЕКСЕЙ ГЕОРГИАДИ художник-постановщик АННА
+                                    ШАРОНОВА<br>
+                                    линейный продюсер ЮЛИЯ ВОЛОВА джуниор продюсер ПОЛИНА ОСТАНИНА директор
+                                    фильма ИЛЬЯ
+                                    АБАЕВ<br>
+                                    pr-директор НАТАЛЬЯ НАГОВИЦИНА портье ИГОРЬ БЫЧКОВ молодожены СОНЯ
+                                    МУНТЯН САША
+                                    СКОЛКОВ<br>
+                                    группа «ПАСОШ» вокал, бас ПЕТАР МАРТИЧ вокал, гитара КИРИЛЛ ГОРОДНИЙ
+                                    барабаны ГРИГОРИЙ
+                                    ДРАЧ<br>
+                                    группа «KATE NV» вокал, прикол КАТЯ ШИЛОНОСОВА бас ДИМА МИДБОРН кларнет
+                                    АНДРЕЙ БЕССОНОВ
+                                    перкуссия ВИКТОР ГЛАЗУНОВ<br>
+                                    группа «СБПЧ» вокал КИРИЛЛ ИВАНОВ вокал ЖЕНЯ БОРЗЫХ бас СТАС АСТАХОВ
+                                    барабаны ГРИГОРИЙ
+                                    ДОБРЫНИН<br>
+                                    гитара ДМИТРИЙ КОНДРЕВ вокал, хормейстер ВАЛЕРИЯ КОГАН вокал, клавиши
+                                    ВАРВАРА
+                                    ЧИРКИНА<br>
+                                    хор ГРЕЙС ИФАРАДЖИМИ ДЖИНА ПИТЕРСЕН ДЖОНАТАН ДЖЕЙМАК АНИ ЭЛЕЛЕ
+                                    АЛЕКСАНДЕР<br>
+                                    художник по костюмам АННА СЛОНИКОВА художник по гримам ОКСАНА ЛАСКИНА
+                                    фотограф АЛЕКСЕЙ
+                                    КИСЕЛЕВ<br>
+                                    бренд команда jameson Анна Ершанская Наталья Сейрик Владислав Минаев
+                                    Анастасия
+                                    Шавкута<br>
+                                    pr команда Мария Лямшева Антонина Анисимова Любовь Решетило<br>
+                                    prr команда Ирина Меренкова Наталья Анопа Татьяна Рассоха Елена
+                                    Пономарева<br>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="section-8__block-text">
+                                    режиссер ПАВЕЛ КЛИНГ оператор-постановщик ФИЛИПП ЗАДОРОЖНЫЙ<br>
+                                    продюсеры КАТЯ ВОЛКОВА АЛЕКСЕЙ ГЕОРГИАДИ художник-постановщик АННА
+                                    ШАРОНОВА<br>
+                                    линейный продюсер ЮЛИЯ ВОЛОВА джуниор продюсер ПОЛИНА ОСТАНИНА директор
+                                    фильма ИЛЬЯ
+                                    АБАЕВ<br>
+                                    pr-директор НАТАЛЬЯ НАГОВИЦИНА портье ИГОРЬ БЫЧКОВ молодожены СОНЯ
+                                    МУНТЯН САША
+                                    СКОЛКОВ<br>
+                                    группа «ПАСОШ» вокал, бас ПЕТАР МАРТИЧ вокал, гитара КИРИЛЛ ГОРОДНИЙ
+                                    барабаны ГРИГОРИЙ
+                                    ДРАЧ<br>
+                                    группа «KATE NV» вокал, прикол КАТЯ ШИЛОНОСОВА бас ДИМА МИДБОРН кларнет
+                                    АНДРЕЙ БЕССОНОВ
+                                    перкуссия ВИКТОР ГЛАЗУНОВ<br>
+                                    группа «СБПЧ» вокал КИРИЛЛ ИВАНОВ вокал ЖЕНЯ БОРЗЫХ бас СТАС АСТАХОВ
+                                    барабаны ГРИГОРИЙ
+                                    ДОБРЫНИН<br>
+                                    гитара ДМИТРИЙ КОНДРЕВ вокал, хормейстер ВАЛЕРИЯ КОГАН вокал, клавиши
+                                    ВАРВАРА
+                                    ЧИРКИНА<br>
+                                    хор ГРЕЙС ИФАРАДЖИМИ ДЖИНА ПИТЕРСЕН ДЖОНАТАН ДЖЕЙМАК АНИ ЭЛЕЛЕ
+                                    АЛЕКСАНДЕР<br>
+                                    художник по костюмам АННА СЛОНИКОВА художник по гримам ОКСАНА ЛАСКИНА
+                                    фотограф АЛЕКСЕЙ
+                                    КИСЕЛЕВ<br>
+                                    бренд команда jameson Анна Ершанская Наталья Сейрик Владислав Минаев
+                                    Анастасия
+                                    Шавкута<br>
+                                    pr команда Мария Лямшева Антонина Анисимова Любовь Решетило<br>
+                                    prr команда Ирина Меренкова Наталья Анопа Татьяна Рассоха Елена
+                                    Пономарева<br>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="section-8__block-text">
+                                    режиссер ПАВЕЛ КЛИНГ оператор-постановщик ФИЛИПП ЗАДОРОЖНЫЙ<br>
+                                    продюсеры КАТЯ ВОЛКОВА АЛЕКСЕЙ ГЕОРГИАДИ художник-постановщик АННА
+                                    ШАРОНОВА<br>
+                                    линейный продюсер ЮЛИЯ ВОЛОВА джуниор продюсер ПОЛИНА ОСТАНИНА директор
+                                    фильма ИЛЬЯ
+                                    АБАЕВ<br>
+                                    pr-директор НАТАЛЬЯ НАГОВИЦИНА портье ИГОРЬ БЫЧКОВ молодожены СОНЯ
+                                    МУНТЯН САША
+                                    СКОЛКОВ<br>
+                                    группа «ПАСОШ» вокал, бас ПЕТАР МАРТИЧ вокал, гитара КИРИЛЛ ГОРОДНИЙ
+                                    барабаны ГРИГОРИЙ
+                                    ДРАЧ<br>
+                                    группа «KATE NV» вокал, прикол КАТЯ ШИЛОНОСОВА бас ДИМА МИДБОРН кларнет
+                                    АНДРЕЙ БЕССОНОВ
+                                    перкуссия ВИКТОР ГЛАЗУНОВ<br>
+                                    группа «СБПЧ» вокал КИРИЛЛ ИВАНОВ вокал ЖЕНЯ БОРЗЫХ бас СТАС АСТАХОВ
+                                    барабаны ГРИГОРИЙ
+                                    ДОБРЫНИН<br>
+                                    гитара ДМИТРИЙ КОНДРЕВ вокал, хормейстер ВАЛЕРИЯ КОГАН вокал, клавиши
+                                    ВАРВАРА
+                                    ЧИРКИНА<br>
+                                    хор ГРЕЙС ИФАРАДЖИМИ ДЖИНА ПИТЕРСЕН ДЖОНАТАН ДЖЕЙМАК АНИ ЭЛЕЛЕ
+                                    АЛЕКСАНДЕР<br>
+                                    художник по костюмам АННА СЛОНИКОВА художник по гримам ОКСАНА ЛАСКИНА
+                                    фотограф АЛЕКСЕЙ
+                                    КИСЕЛЕВ<br>
+                                    бренд команда jameson Анна Ершанская Наталья Сейрик Владислав Минаев
+                                    Анастасия
+                                    Шавкута<br>
+                                    pr команда Мария Лямшева Антонина Анисимова Любовь Решетило<br>
+                                    prr команда Ирина Меренкова Наталья Анопа Татьяна Рассоха Елена
+                                    Пономарева<br>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <!--<div class="swiper-pagination"></div>-->
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+            </section>
+
+
         </div>
+
+
 
 
     </div>
@@ -317,12 +476,41 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-<!--<script src="js/jquery.inputmask.min.js"></script>-->
 <script src="js/plugins.js"></script>
+<!--<script src="js/swiper-bundle.js"></script>-->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/fullpage.js"></script>
+
 <script src="js/main.js"></script>
 
 <script>
+
+    var swiperH = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+
+    var swiperV = new Swiper('.swiper-container1', {
+        loop: true,
+        keyboard: {
+            enabled: true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
 
 </script>
 
