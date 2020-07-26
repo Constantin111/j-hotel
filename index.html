@@ -48,7 +48,7 @@
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
                                     <input type="text" maxlength="2" id="oldDay" name="oldDay" placeholder="ДД"
-                                           autofocus>
+                                           autofocus autocomplete="off">
                                 </div>
                                 <div class="wellcome-block__date-item__text">
                                     День
@@ -57,7 +57,7 @@
                             <div class="wellcome-block__date-item">
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
                                     <input tabindex="1" type="text" maxlength="2" id="oldMonth" name="oldMonth"
-                                           placeholder="ММ">
+                                           placeholder="ММ" autocomplete="off">
                                 </div>
                                 <div class="wellcome-block__date-item__text">
                                     Месяц
@@ -67,7 +67,7 @@
                                 <div class="d_flex justify_center align_items wellcome-block__date-item__input">
                                     <input tabindex="2" type="text" maxlength="4" min="1910" max="2020" step="1"
                                            id="oldYear"
-                                           name="oldYear" placeholder="ГГГГ">
+                                           name="oldYear" placeholder="ГГГГ" autocomplete="off">
                                 </div>
                                 <div class="wellcome-block__date-item__text">
                                     Год
@@ -466,14 +466,25 @@
 
             <section class="section section-block section-10">
                 <div class="section-10__block-wrap">
-                    <img src="img/section-10-1-bg.jpg" alt="">
+                    <img src="img/section-10-bg.jpg" alt="">
+                    <div class="d_flex space_between section-10__block-content">
+                        <div class="section-10__block-ready">
+                            СНЯТО!
+                        </div>
+                        <div class="section-10__block-social__wrap">
+                            <img src="img/section-10-social-img.png" alt="">
+                            <div class="section-10__block-social">
+                                WEB<br>
+                                <a href="">FACEBOOK</a><br>
+                                <a href="">INSTAGRAM</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
 
         </div>
-
-
 
 
     </div>

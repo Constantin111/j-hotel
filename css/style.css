@@ -134,8 +134,11 @@
 префиксы для flex-элементов
 ******************************/
 
-div {
+div, section  {
     position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .age-gate__block {
@@ -608,6 +611,94 @@ input[type="text"]::placeholder {
     width: 100%;
     max-width: 100%;
 }
+
+
+.section-10__block-wrap {
+    position: relative;
+}
+.section-10__block-content {
+    position: absolute;
+    top: 8%;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+
+.section-10__block-ready {
+    font-size: 125px;
+    font-family: "SONGERT_G_Bold";
+    color: #032919;
+}
+
+.section-10__block-social__wrap {
+    padding-top: 80px;
+}
+.section-10__block-social__wrap img{
+    width: auto;
+}
+.section-10__block-social {
+    font-size: 43px;
+    font-family: "jj bd";
+    color: #032919;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+.section-10__block-social a {
+    color: #032919;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+}
+
+input:-internal-autofill {
+    appearance: menulist-button;
+    background-color: transparent !important;
+    background-image: none !important;
+    color: rgb(239, 222, 161) !important;
+}
+
+input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-color: transparent !important;
+    background-image: none !important;
+    color: rgb(239, 222, 161) !important;
+}
+input:-internal-autofill-focus {
+    appearance: menulist-button;
+    background-color: transparent !important;
+    background-image: none !important;
+    color: rgb(239, 222, 161) !important;
+}
+
+input:-internal-autofill-visited {
+    appearance: menulist-button;
+    background-color: transparent !important;
+    background-image: none !important;
+    color: rgb(239, 222, 161) !important;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 50px transparent !important; /* цвет вашего фона */
+    -webkit-text-fill-color: rgb(239, 222, 161) !important; /* цвет текста */
+    background-color: transparent !important;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 5px 0    transparent !important,   /* ваш box-shadow для :focus */
+    inset 0 0 0   50px transparent !important;  /* цвет вашего фона */
+    -webkit-text-fill-color: rgb(239, 222, 161) !important;          /* цвет текста */
+    background-color: transparent !important;
+}
+input:-webkit-autofill:visited {
+    -webkit-box-shadow: 0 0 5px 0    transparent !important,   /* ваш box-shadow для :focus */
+inset 0 0 0   50px transparent !important;  /* цвет вашего фона */
+    -webkit-text-fill-color: rgb(239, 222, 161) !important;          /* цвет текста */
+    background-color: transparent !important;
+}
+
+
 
 
 
