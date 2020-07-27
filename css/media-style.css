@@ -166,7 +166,7 @@
     }
 
     .section-4__block-wrap p {
-        font-size: 15px;
+        font-size: 15px !important;
     }
 
     .section-5__gallery-block__item img {
@@ -249,6 +249,72 @@
     .section-3__block-content__logo-text-2 {
         font-size: 48px;
     }
+    .section-4__content-title {
+        font-size: 40px;
+    }
+    .section-4__content-text p {
+        font-size: 11px !important;
+    }
+    .section-4__block-wrap p {
+        font-size: 10px;
+    }
+    .section-5__gallery-block__items {
+        height: 200px;
+    }
+    .gallery-block__item-2 img {
+        width: 351px;
+        left: -92px;
+    }
+    .gallery-block__item-3 img {
+        width: 352px;
+        left: -83px;
+    }
+    .gallery-block__item-5 img {
+        left: 0px;
+    }
+    .section-6__gallery-block__item img {
+        width: 110%;
+    }
+    .section-6__gallery-block__item:nth-child(2) img {
+        width: 123%;
+    }
+    .section-6__gallery-block__item:last-child img {
+        width: 98%;
+    }
+    .section-6__video-center {
+        padding: 23px;
+    }
+    .section-6__video-wrap iframe {
+        height: 156px;
+    }
+    .section-6__video-wrap-1 {
+        left: 3px;
+        top: -2px;
+    }
+    .section-7__block-top__text {
+        font-size: 27px;
+    }
+    .section-7__block-center__count #t {
+        font-size: 27px !important;
+    }
+    .section-8__block-text {
+        font-size: 18px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .section-10__block-ready {
+        font-size: 66px;
+    }
+    .section-10__block-social__wrap img {
+        width: 150px;
+    }
+    .section-10__block-social a img {
+        width: 50px;
+    }
+    .section-10__block-social {
+        font-size: 18px;
+    }
+
 }
 
 @media all and (max-width: 470px) {
