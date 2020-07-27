@@ -218,6 +218,10 @@ div, section  {
     padding-right: 30px;
 }
 
+.section-8__block-text__mob {
+    display: none;
+}
+
 #fullpage.post-age-gate__block.post-age-gate__block-mob {
     display: none;
 }

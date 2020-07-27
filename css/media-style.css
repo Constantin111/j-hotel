@@ -726,7 +726,7 @@
     }
 
     .wellcome-block__date-item__input {
-        width: 85px;
+        width: 94px;
         height: 59px;
         background: url(../img/input-date-bg.png) no-repeat;
         background-size: contain;
@@ -736,6 +736,8 @@
         padding-left: 10px;
         padding-right: 10px;
         width: 33.33%;
+        text-align: center;
+        text-align: -webkit-center;
     }
 
     .wellcome-block__date-item__input input {
@@ -876,11 +878,31 @@
     .section-7__block-top__text {
         margin-bottom: 15px;
     }
+    .section-8__block-text__descktop {
+        display: none;
+    }
+    .section-8__block-text__mob {
+        display: block;
+    }
+    .premier-video__block-subplayer__block {
+        text-align: center;
+        margin-top: 30px;
+    }
 }
 
 @media all and (max-width: 380px)  {
     .section-4__content-title {
         font-size: 54px;
+    }
+    .premier-title__block-wrap {
+        padding: 50px;
+        margin-bottom: 0px;
+    }
+    .premier-video__block-wrap {
+        margin-bottom: 30px;
+    }
+    .section-4__block-wrap p {
+        font-size: 15px !important;
     }
     .logo-lit-container .section-3__block-content__logo-text {
         font-size: 10px !important;
@@ -896,7 +918,7 @@
         font-size: 18px !important;
     }
     .wellcome-block__title-logo__key {
-        margin-top: 16px;
+        margin-top: 0px;
     }
     .section.section-block.section-4.section-mob .wellcome-block__title-logo {
         margin-bottom: 14px;
@@ -910,13 +932,14 @@
         text-transform: lowercase;
     }
     .premier-video__block-player {
-        padding: 50px;
+        padding: 25px;
         font-size: 30px;
-        width: 370px;
+        width: 309px;
+        height: 192px;
         text-align: center;
     }
     .premier-title__block-text p #t {
-        font-size: 12px !important;
+        font-size: 14px !important;
     }
     .section-10__block-ready__mob {
         display: block;
@@ -935,6 +958,30 @@
     }
     .section-10__block-social {
         font-size: 14px;
+    }
+    .premier-video__block-player__block {
+        padding: 25px;
+    }
+    .section-8__block-text {
+        font-size: 13px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .section-8__block-text {
+        font-size: 13px;
+    }
+    .section-8__block-text {
+        font-size: 13px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        -moz-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        width: 658px;
+        height: 50px;
+        margin-left: -22px;
     }
 
 }
