@@ -863,6 +863,9 @@
 
 </div>
 
+
+<
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script>
@@ -886,24 +889,24 @@
 
 <script>
 
-    var swiperH = new Swiper('.swiper-container', {
+    var swiperV = new Swiper('.swiper-container-v', {
         direction: 'vertical',
         slidesPerView: 1,
         spaceBetween: 30,
         mousewheel: true,
         pagination: {
-            el: '.swiper-pagination',
+            el: '.swiper-pagination-v',
             clickable: true,
         },
     });
 
-    var swiperV = new Swiper('.swiper-container1', {
+    var swiperH = new Swiper('.swiper-container1', {
         loop: true,
         keyboard: {
             enabled: true,
         },
         pagination: {
-            el: '.swiper-pagination',
+            el: '.swiper-pagination1',
             type: 'fraction',
         },
         navigation: {
@@ -914,7 +917,7 @@
 
 </script>
 
-<script>
+<!--<script>
     var swiperH = new Swiper('.swiper-container-h', {
         spaceBetween: 50,
         pagination: {
@@ -930,7 +933,7 @@
             clickable: true,
         },
     });
-</script>
+</script>-->
 
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->

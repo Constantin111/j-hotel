@@ -556,8 +556,8 @@
     }
 
     .logo-lit-container {
-        background: url("../img/section-4-bg-litl.jpg") no-repeat;
-        background-size: cover;
+        /*background: url("../img/section-4-bg-litl.jpg") no-repeat;
+        background-size: cover;*/
         height: 142px;
         width: 300px;
         margin-bottom: 30px;
@@ -704,7 +704,7 @@
 
     .section-9__block-text {
         position: absolute;
-        top: -46px;
+        top: 0px;
         font-size: 11px;
         width: 85%;
         padding: 15px;
@@ -746,7 +746,7 @@
     .section-3__block-content__logo {
         padding-left: 0px;
         width: 100%;
-        padding-top: 55px;
+        padding-top: 45px;
     }
 
     .premier-title__block-text span {
@@ -952,10 +952,11 @@
     }
 
     .section-4 {
-        padding-top: 33px;
-        padding-bottom: 30px;
+        padding-top: 15px;
+        padding-bottom: 21px;
         padding-left: 15px;
         padding-right: 15px;
+        margin-bottom: 30px;
     }
 
     .section-4__block-wrap .section-3__bottom-text.bottom-tetx-mob {
@@ -973,11 +974,11 @@
     }
 
     .section-9__block-wrap .mob-top-img {
-        width: 108%;
-        max-width: 108%;
+        width: 100%;
+        max-width: 100%;
         height: auto;
         max-height: 100%;
-        margin-top: -62px;
+        margin-top: -14px;
         margin-left: 0;
     }
 
@@ -1116,7 +1117,7 @@
 
     .section-9__block-text {
         position: absolute;
-        top: -43px;
+        top: 0px;
         font-size: 10px;
         width: 85%;
     }
