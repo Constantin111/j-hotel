@@ -496,6 +496,7 @@
 
     .section-3__block-wrap .section-3__bottom-text {
         position: absolute;
+        bottom: 17px;
     }
 
     .section-3__bottom-text {
@@ -706,6 +707,39 @@
         top: 50px;
         font-size: 11px;
         width: 85%;
+        padding: 15px;
+        left: 30px;
+    }
+
+    .section-10__block-content {
+        position: absolute;
+        top: 8%;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+
+    .section-10__block-social {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .section-10__block-social a img {
+        width: 40px;
+    }
+
+    .section-10__block-social__wrap {
+        padding-top: 19px;
+        left: 14px;
+    }
+
+    .section-10 .section-10__block-wrap .mob-top-img {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .section-10 .section-3__bottom-text {
+        bottom: 11px;
     }
 
     .section-3__block-content__logo {
@@ -740,13 +774,13 @@
     }
 
     .section-4__content-title {
-        font-size: 65px;
+        font-size: 60px;
     }
 
     .section-4__block-wrap p.bold-text {
         font-weight: bold;
         font-family: 'jj bd';
-        font-size: 20px !important;
+        font-size: 17px !important;
     }
 
     .section-4__block-wrap p {
@@ -787,6 +821,12 @@
     .premier-title__block-wrap {
         padding: 50px;
         margin-bottom: 0px;
+    }
+
+    .section-5__block-wrap .premier-title__block-wrap {
+        padding: 0px;
+        margin-bottom: 46px;
+        margin-top: 50px;
     }
 
     premier-video__block-wrap {
@@ -956,7 +996,12 @@
 
     .section-3__bottom-text {
         position: absolute;
-        bottom: 17px;
+        bottom: -15px;
+    }
+
+    .section-4 .section-3__bottom-text {
+        position: absolute;
+        bottom: 20px;
     }
 
     .section-6__video-center {
@@ -1004,9 +1049,39 @@
         height: 725px;
         max-height: 725;
     }
+    .section-3__block-wrap .mob-top-img, .section-9__block-wrap .mob-top-img {
+        max-width: 100%;
+        margin-left: 0px;
+    }
 }
 
 @media all and (max-width: 380px)  {
+
+    .section-3__block-content__logo img {
+        width: 120px;
+    }
+
+    .section-3__block-content__logo-text {
+        font-size: 13px;
+    }
+
+    .section-3__block-content__logo-text-2 {
+        font-size: 32px;
+        width: 100%;
+        padding-right: 0;
+        padding-top: 13px;
+    }
+
+    .section-3__block-wrap .section-3__bottom-text {
+        position: absolute;
+        bottom: -18px;
+    }
+
+    .section-5__block-wrap .premier-title__block-wrap {
+        padding: 0px;
+        margin-bottom: 46px;
+        margin-top: 80px;
+    }
 
     .section.section-block {
         max-height: 667px;
