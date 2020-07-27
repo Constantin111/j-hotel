@@ -119,19 +119,6 @@ $(function () {
     });
 
 
-    $('.main').ready(function () {
-
-    });
-
-    $('.main').on("DOMNodeInserted", function (event) {
-
-
-
-    });
-
-
-
-
 });
 
 /*jQuery(function ($) {
