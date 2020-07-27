@@ -256,7 +256,7 @@
         font-size: 11px !important;
     }
     .section-4__block-wrap p {
-        font-size: 10px;
+        font-size: 10px!important;
     }
     .section-5__gallery-block__items {
         height: 200px;
@@ -288,8 +288,16 @@
         height: 156px;
     }
     .section-6__video-wrap-1 {
-        left: 3px;
-        top: -2px;
+        left: -2px;
+        top: 2px;
+    }
+    .section-6__video-wrap-2 {
+        left: -15px;
+        top: 2px;
+    }
+    .section-6__video-wrap-3 {
+        left: -29px;
+        top: 2px;
     }
     .section-7__block-top__text {
         font-size: 27px;
@@ -357,6 +365,15 @@
     }
     .wellcome-block__attention-text {
         font-size: 17px;
+    }
+    .section-4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section-5, .section-6 {
+        padding: 20px;
     }
 }
 
