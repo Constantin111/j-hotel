@@ -517,6 +517,21 @@
     .section-4__block-wrap .section-3__bottom-text.bottom-tetx-mob {
         position: relative;
     }
+    .logo-lit-container {
+        background: url("../img/section-4-bg-litl.jpg") no-repeat;
+        background-size: cover;
+        height: 142px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .logo-lit-container .section-3__block-content__logo {
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .section.section-block.section-4.section-mob .wellcome-block__title-logo {
+        margin-bottom: 30px;
+    }
 
 }
 
