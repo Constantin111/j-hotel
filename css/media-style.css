@@ -707,11 +707,34 @@
         padding: 29px;
         font-size: 39px;
         width: 370px;
+        height: 231px;
         text-align: center;
+    }
+
+    .premier-video__block-player__block {
+        padding: 20px;
     }
 
     .premier-title__block-text p #t {
         font-size: 13px !important;
+    }
+
+    .premier-title__block-text p #d {
+        font-size: 13px !important;
+    }
+    .premier-video__block-player iframe {
+        height: 166px;
+        position: relative;
+        top: 2px;
+    }
+
+    .premier-title__block-wrap {
+        padding: 50px;
+        margin-bottom: 0px;
+    }
+
+    premier-video__block-wrap {
+        margin-bottom: 100px;
     }
 
     .wellcome-block__title-text {
