@@ -704,12 +704,13 @@
 
     .section-9__block-text {
         position: absolute;
-        top: 50px;
+        top: -46px;
         font-size: 11px;
         width: 85%;
         padding: 15px;
         left: 30px;
     }
+
 
     .section-10__block-content {
         position: absolute;
@@ -806,11 +807,11 @@
     }
 
     .premier-title__block-text p #t {
-        font-size: 13px !important;
+        font-size: 18px !important;
     }
 
     .premier-title__block-text p #d {
-        font-size: 13px !important;
+        font-size: 18px !important;
     }
     .premier-video__block-player iframe {
         height: 166px;
@@ -826,7 +827,7 @@
     .section-5__block-wrap .premier-title__block-wrap {
         padding: 0px;
         margin-bottom: 46px;
-        margin-top: 50px;
+        margin-top: 82px;
     }
 
     premier-video__block-wrap {
@@ -971,11 +972,13 @@
         display: none;
     }
 
-    .section-9__block-wrap img {
-        width: 100%;
-        max-width: 100%;
+    .section-9__block-wrap .mob-top-img {
+        width: 108%;
+        max-width: 108%;
         height: auto;
         max-height: 100%;
+        margin-top: -62px;
+        margin-left: 0;
     }
 
     .section-6__gallery-block {
@@ -997,6 +1000,16 @@
     .section-3__bottom-text {
         position: absolute;
         bottom: -15px;
+    }
+
+    .section-3__block-wrap .section-3__bottom-text {
+        position: absolute;
+        bottom: -17px;
+    }
+
+    .section-9 .section-3__bottom-text {
+        position: absolute;
+        bottom: -36px;
     }
 
     .section-4 .section-3__bottom-text {
@@ -1049,7 +1062,7 @@
         height: 725px;
         max-height: 725;
     }
-    .section-3__block-wrap .mob-top-img, .section-9__block-wrap .mob-top-img {
+    .section-3__block-wrap .mob-top-img {
         max-width: 100%;
         margin-left: 0px;
     }
@@ -1063,6 +1076,16 @@
 
     .section-3__block-content__logo-text {
         font-size: 13px;
+    }
+
+    .section-9 .section-3__bottom-text {
+        position: absolute;
+        bottom: -36px;
+    }
+
+    .section-5-1 .section-5__block-wrap .section-3__bottom-text {
+        position: absolute;
+        bottom: 0px;
     }
 
     .section-3__block-content__logo-text-2 {
@@ -1093,7 +1116,7 @@
 
     .section-9__block-text {
         position: absolute;
-        top: 50px;
+        top: -43px;
         font-size: 10px;
         width: 85%;
     }
