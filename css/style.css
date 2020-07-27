@@ -696,6 +696,10 @@ input[type="text"]::placeholder {
     text-decoration: none;
 }
 
+.section-mob {
+    display: none;
+}
+
 .bottom-tetx-mob {
     display: none;
 }
