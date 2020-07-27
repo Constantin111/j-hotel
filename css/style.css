@@ -514,7 +514,7 @@ input[type="text"]::placeholder {
 .section-5__gallery-block__item img {
     width: auto;
     height: auto;
-    /*position: absolute;*/
+    position: relative;
     height: fit-content;
 }
 
