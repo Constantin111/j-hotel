@@ -52,34 +52,11 @@
             window.setTimeout("time()", 1000);
         }
     </script>
-    <script type="text/javascript">
-        timeend = new Date(2020, 06, 30, 19, 00);
-        // IE и FF по разному отрабатывают getYear()
-        //timeend = new Date(timeend.getYear() > 1900 ? (timeend.getYear() + 1) : (timeend.getYear() + 1901), 0, 1);
-        // для задания обратного отсчета до определенной даты укажите дату в формате:
-        // timeend= new Date(ГОД, МЕСЯЦ-1, ДЕНЬ);
-        // Для задания даты с точностью до времени укажите дату в формате:
-        // timeend= new Date(ГОД, МЕСЯЦ-1, ДЕНЬ, ЧАСЫ-1, МИНУТЫ);
-        function time1() {
-            today = new Date();
-            today = Math.floor((timeend - today) / 1000);
-            tsec = today % 60;
-            today = Math.floor(today / 60);
-            if (tsec < 10) tsec = '0' + tsec;
-            tmin = today % 60;
-            today = Math.floor(today / 60);
-            if (tmin < 10) tmin = '0' + tmin;
-            thour = today % 24;
-            today = Math.floor(today / 24);
-            timestr = today + " дня " + thour + " часов " + tmin + " минут " + tsec + " секунд";
-            document.getElementById('d').innerHTML = timestr;
-            window.setTimeout("time1()", 1000);
-        }
-    </script>
+
 </head>
 
 
-<body onload="time(),time1()">
+<body onload="time()">
 
 <div class="wrap global-wrap">
     <div class="wrap section-wrap">
@@ -365,7 +342,7 @@
                         <div class="d_flex justify_center section-7__block-center__count">
 
 
-                            <p><span id="d"></span></p>
+                            <p><span id="t" ></span></p>
 
                             <!--<script src="//megatimer.r.u/get/10e18b24df0dc62757a8cea0e5e8b784.js"></script>-->
                         </div>

@@ -188,7 +188,7 @@ div, section  {
 }
 
 .wellcome-block__title-text {
-    font-size: 95px;
+    font-size: 85px;
     font-family: "SONGERT_G_Bold";
     color: rgb(239, 222, 161);
     line-height: 1.11;
@@ -435,7 +435,7 @@ input[type="text"]::placeholder {
 /* ///////////////////// section-4 //////////////////////// */
 
 .section-4 {
-    padding-top: 63px;
+    padding-top: 0px;
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
@@ -507,6 +507,7 @@ input[type="text"]::placeholder {
     background: url("../img/section-5-bg.jpg") no-repeat;
     background-size: cover;
     padding: 50px;
+    padding-top: 20px;
 }
 .section-5__gallery-block {
     padding-left: 50px;
@@ -565,13 +566,13 @@ input[type="text"]::placeholder {
 }
 
 .section-5__bottom-text {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 
 
 .section-6__banner-center {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .section-6__video-center {
