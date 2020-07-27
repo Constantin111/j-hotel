@@ -722,6 +722,16 @@ input[type="text"]::placeholder {
     display: none;
 }
 
+.section-4.section-mob {
+    display: none;
+}
+.section-5-1.section-mob {
+    display: none;
+}
+.section-6-1.section-mob {
+    display: none;
+}
+
 input:-internal-autofill {
     appearance: menulist-button;
     background-color: transparent !important;
