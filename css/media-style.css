@@ -314,10 +314,57 @@
     .section-10__block-social {
         font-size: 18px;
     }
+    .wellcome-block__title-text {
+        font-size: 45px;
+    }
+    .wellcome-block__title-logo img {
+        width: 110px;
+    }
+    .wellcome-block__title-description {
+        padding-top: 30px;
+        font-size: 36px;
+    }
+    .wellcome-block__date-item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .wellcome-block__date-item__input input {
+        font-size: 27px;
+    }
+    .wellcome-block__date-item__text {
+        font-size: 27px;
+    }
+    .wellcome-block__date-item__input {
+        width: 168px;
+        height: 106px;
+        background-size: contain;
+    }
+    .wellcome-block__date-acces__btn {
+        font-size: 27px;
+    }
+    .wellcome-block__date-acces__btn {
+        font-size: 27px;
+        width: 410px;
+        height: 108px;
+        background-size: contain;
+    }
+    .wellcome-block__date-acces {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .wellcome-block__date-items {
+        padding-top: 20px;
+    }
+    .wellcome-block__attention-text {
+        font-size: 17px;
+    }
+}
+
+@media all and (max-width: 770px) {
 
 }
 
-@media all and (max-width: 470px) {
+    @media all and (max-width: 470px) {
     .wellcome-block__title-text {
         font-size: 36px;
     }
