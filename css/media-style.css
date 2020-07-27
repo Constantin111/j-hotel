@@ -422,12 +422,15 @@
 }
 
 @media all and (max-width: 770px) {
+
     .desck-top-img {
         display: none;
     }
+
     .mob-top-img {
         display: block;
     }
+
     .section-3__block-content__logo {
         padding-left: 0px;
         width: 100%;
@@ -445,6 +448,7 @@
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
+
     .section-3__block-content__logo-text-2 {
         font-size: 60px;
         width: 100%;
@@ -472,6 +476,7 @@
     .section-3__block-wrap .section-3__bottom-text {
         position: absolute;
     }
+
     .section-3__bottom-text {
         display: none;
     }
@@ -485,38 +490,49 @@
         max-width: 100%;
         display: block;
     }
+
     .bottom-tetx-mob img {
         height: 70px;
     }
+
     .section-4 {
         display: none !important;
     }
+
     .section-4.section-mob {
         display: block !important;
     }
+
     .section-4__content-item-1 {
         width: 100%;
     }
+
     .section-4__content-item-3 {
         width: 100%;
     }
+
     .section-4__content-item-2 {
         width: 100%;
     }
+
     .section-4__content-title {
         font-size: 90px;
     }
+
     .section-4__block-wrap p {
         font-size: 25px !important;
     }
+
     .section-4__block-wrap p.bold-text {
         font-weight: bold;
         font-family: 'jj bd';
-        font-size: 30px!important;
+        font-size: 30px !important;
     }
-    .section-4__block-wrap .section-3__bottom-text.bottom-tetx-mob,.section-5__block-wrap .section-3__bottom-text.bottom-tetx-mob {
+
+    .section-4__block-wrap .section-3__bottom-text.bottom-tetx-mob, .section-5__block-wrap .section-3__bottom-text.bottom-tetx-mob {
         position: relative;
     }
+
     .logo-lit-container {
         background: url("../img/section-4-bg-litl.jpg") no-repeat;
         background-size: cover;
@@ -524,6 +540,7 @@
         width: 300px;
         margin-bottom: 30px;
     }
+
     .logo-lit-container .section-3__block-content__logo {
         padding-top: 0px;
         text-align: center;
@@ -532,54 +549,148 @@
     .section.section-block.section-4.section-mob .wellcome-block__title-logo {
         margin-bottom: 30px;
     }
+
     .section-4__block-wrap p {
         font-size: 29px !important;
     }
-    .section.section-block.section-5,.section.section-block.section-6,.section.section-block.section-7 {
+
+    .section.section-block.section-5, .section.section-block.section-6, .section.section-block.section-7 {
         display: none !important;
     }
+
     .premier-video__block-player__block {
         background: url("../img/section-5-bg.jpg") no-repeat;
         background-size: cover;
     }
+
     .premier-video__block-player {
         background: url("../img/input-date-bg.png") no-repeat;
         background-size: cover;
     }
+
     .premier-title__block-wrap {
         padding: 50px;
         margin-bottom: 130px;
     }
+
     .premier-title__block-text {
         font-size: 31px;
         text-align: center;
     }
+
     .premier-title__block-text p {
         margin: 0;
         padding: 0;
     }
+
     .premier-video__block-wrap {
         margin-bottom: 130px;
     }
+
     .premier-video__block-player__block {
         padding: 40px;
     }
+
     .premier-video__block-player {
         padding: 50px;
         font-size: 48px;
         width: 370px;
         text-align: center;
     }
+
     .section-9__block-wrap {
         padding: 20px;
     }
+
     .section-block.section-9 .section-3__bottom-text.bottom-tetx-mob {
         position: relative;
+    }
+
+    .section-8__block-text {
+        font-size: 13px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .section-10__block-ready__desktop {
+        display: none;
+    }
+    .section-10__block-ready__mob {
+        display: block;
+        position: absolute;
+        top: 337px;
+        right: 10px;
+    }
+    .section-10__block-social__wrap {
+        padding-top: 19px;
+        left: -70px;
+    }
+    .section-10__block-wrap .section-3__bottom-text.bottom-tetx-mob {
+        position: absolute;
     }
 
 }
 
 @media all and (max-width: 470px) {
+
+    .section-3__block-content__logo {
+        padding-left: 0px;
+        width: 100%;
+        padding-top: 55px;
+    }
+
+    .section-3__block-content__logo img {
+        width: 155px;
+    }
+
+    .section-3__block-content__logo-text {
+        font-size: 18px;
+    }
+
+    .section-3__block-content__logo-text-2 {
+        font-size: 43px;
+        width: 100%;
+        padding-right: 0;
+        padding-top: 25px;
+    }
+
+    .logo-lit-container {
+        height: 89px;
+        width: 187px;
+        margin-bottom: 0px;
+    }
+
+    .section-4__content-title {
+        font-size: 65px;
+    }
+
+    .section-4__block-wrap p.bold-text {
+        font-weight: bold;
+        font-family: 'jj bd';
+        font-size: 20px !important;
+    }
+
+    .section-4__block-wrap p {
+        font-size: 16px !important;
+    }
+
+    .premier-title__block-text {
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .premier-video__block-player {
+        padding: 50px;
+        font-size: 39px;
+        width: 370px;
+        text-align: center;
+    }
+
+    .premier-title__block-text p #t {
+        font-size: 13px !important;
+    }
+
     .wellcome-block__title-text {
         font-size: 36px;
     }
@@ -591,6 +702,14 @@
 
     block__title-logo img {
         width: 85px;
+    }
+
+    .wellcome-block__title-logo__key {
+        margin-top: 35px;
+    }
+
+    .wellcome-block__title-logo__key img {
+        width: 40px;
     }
 
     .wellcome-block__date-items {
@@ -633,8 +752,6 @@
     .wellcome-block__attention-text {
         font-size: 12px;
     }
-
-
 
     .wellcome-block__title-text.section__2 {
         font-size: 35px;
@@ -689,7 +806,7 @@
     }
 
     .section-4 {
-        padding-top: 63px;
+        padding-top: 33px;
         padding-bottom: 50px;
         padding-left: 15px;
         padding-right: 15px;
@@ -697,6 +814,7 @@
 
     .section-4__block-wrap .section-3__bottom-text.bottom-tetx-mob {
         position: static;
+        margin-top: 0px;
     }
 
     .section-5 {
@@ -717,7 +835,7 @@
     }
 
     .section-8__block-text {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .section-7__block-top__text {
@@ -750,4 +868,14 @@
     .section-7__block-top__text {
         margin-bottom: 15px;
     }
+}
+
+@media all and (max-width: 380px)  {
+    .section-4__content-title {
+        font-size: 61px;
+    }
+    .wellcome-block__title-logo__key {
+        margin-top: 16px;
+    }
+
 }

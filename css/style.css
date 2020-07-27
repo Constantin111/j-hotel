@@ -218,6 +218,14 @@ div, section  {
     padding-right: 30px;
 }
 
+#fullpage.post-age-gate__block.post-age-gate__block-mob {
+    display: none;
+}
+
+.section-10__block-ready__mob {
+    display: none;
+}
+
 input[type="text"]::-moz-placeholder {
     color: rgb(239, 222, 161); /* Цвет подсказывающего текста */
 }
