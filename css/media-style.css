@@ -48,10 +48,12 @@
         top: 4px;
     }
     .section-7__block-video-container {
-        width: 789px;
+        width: 695px;
         height: 444px;
-        top: 84px;
-        left: 72px;
+        top: 0px;
+    }
+    .section-9__block-wrap__content-text {
+        font-size: 17px;
     }
 }
 
@@ -145,7 +147,6 @@
         width: 617px;
         height: 351px;
         top: 67px;
-        left: 63px;
     }
 }
 
@@ -154,6 +155,10 @@
     .age-gate__block {
         height: 100vh;
         max-height: 100vh;
+    }
+
+    .section-5__gallery-block__item.gallery-block__item-5 {
+        left: -13px;
     }
 
     .wellcome-block__title-text {
@@ -197,7 +202,7 @@
     }
 
     .gallery-block__item-8 img {
-        width: 250px;
+        width: 272px;
     }
 
     .gallery-block__item-3 img {
@@ -207,6 +212,11 @@
 
     .gallery-block__item-5 img {
         left: 34px;
+    }
+
+    .section-6__gallery-block {
+        width: 100%;
+        max-width: 1266px;
     }
 
     .section-6__video-center {
@@ -259,14 +269,13 @@
         width: 509px;
         height: 324px;
         top: 0px;
-        left: 57px;
         padding: 42px;
     }
 
     .section-9__block-wrap__content-text {
         position: absolute;
         width: 37%;
-        font-size: 13px;
+        font-size: 14px;
     }
 
 }
@@ -310,11 +319,11 @@
         left: -106px;
     }
     .gallery-block__item-8 img {
-        width: 231px;
+        width: 212px;
     }
 
     .gallery-block__item-5 img {
-        left: 0px;
+        left: 25px;
     }
 
     .section-6__gallery-block__item img {
@@ -459,7 +468,6 @@
         width: 372px;
         height: 238px;
         top: 0px;
-        left: 41px;
         padding: 31px;
     }
 
@@ -645,7 +653,10 @@
 
     .section-5__block-wrap .premier-title__block-wrap {
         padding: 0px;
-        margin-bottom: 80px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .section-6-1 .section-5__block-wrap .premier-title__block-wrap {
@@ -806,6 +817,8 @@
         margin-bottom: 0px;
     }
 
+
+
     .section-5__block-wrap {
         padding-top: 3px;
     }
@@ -924,9 +937,10 @@
     }
 
     .section-5__block-wrap .premier-title__block-wrap {
-        padding: 0px;
-        margin-bottom: 46px;
-        margin-top: -20px;
+        ppadding: 0px;
+        margin-bottom: 80px;
+        margin-top: 0px;
+        padding-top: 20px
     }
 
     premier-video__block-wrap {
@@ -1069,6 +1083,9 @@
         padding-left: 15px;
         padding-right: 15px;
         /*margin-bottom: 30px;*/
+    }
+    .section-4-3 {
+        padding-top: 70px;
     }
 
     .section-4__block-wrap .section-3__bottom-text.bottom-tetx-mob {

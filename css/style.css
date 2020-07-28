@@ -135,10 +135,38 @@
 ******************************/
 
 div, section  {
-    position: relative;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #403e3e !important;
+}
+
+.section.section-block {
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    display: -ms-flexbox!important;
+    display: flex !important;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.fp-tableCell {
+    display: contents;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
 }
 
 .age-gate__block {
@@ -378,7 +406,7 @@ input[type="text"]::placeholder {
 
 .section-3__block-content__logo-row {
     text-align: center;
-    margin-top: 26%;
+    margin-top: 17%;
 }
 
 .section-3__block-content__logo-text {
@@ -404,7 +432,7 @@ input[type="text"]::placeholder {
 
 .section-3__bottom-text {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -417,7 +445,7 @@ input[type="text"]::placeholder {
     overflow: hidden;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 .section-3__bottom-text.section-4__bottom-text {
@@ -546,7 +574,7 @@ input[type="text"]::placeholder {
 }
 .gallery-block__item-2 {
     /*margin-left: auto;*/
-    z-index: 1;
+    /*z-index: 1;*/
 }
 .gallery-block__item-3 {
     /*right: 0;*/
@@ -671,6 +699,7 @@ input[type="text"]::placeholder {
     /*overflow: hidden;*/
 }
 .section-9__block-wrap {
+    position: relative;
 
 }
 .section-10__block-wrap img {
@@ -762,7 +791,6 @@ input[type="text"]::placeholder {
     width: 76%;
     height: 481px;
     top: 0px;
-    left: 117px;
     padding: 58px;
 }
 .section-mob {
@@ -774,6 +802,7 @@ input[type="text"]::placeholder {
 }
 .desck-top-img {
     display: block;
+    width: 100%;
 }
 .mob-top-img {
     display: none;

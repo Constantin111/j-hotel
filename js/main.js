@@ -69,7 +69,8 @@ $(function () {
                     $(".post-age-gate__block").addClass("active");
                     new fullpage('#fullpage', {
                         navigation: true,
-                        responsiveWidth: 700,
+                        dragAndMove: true,
+                        responsiveWidth: 370,
                         anchors: ['home', 'about-us', 'contact'],
                         parallax: true,
                         onLeave: function (origin, destination, direction) {
@@ -96,7 +97,8 @@ $(function () {
             $(".post-age-gate__block").addClass("active");
             new fullpage('#fullpage', {
                 navigation: true,
-                responsiveWidth: 700,
+                dragAndMove: true,
+                responsiveWidth: 370,
                 anchors: ['home', 'about-us', 'contact'],
                 parallax: true,
                 onLeave: function (origin, destination, direction) {
