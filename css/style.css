@@ -719,6 +719,17 @@ input[type="text"]::placeholder {
     text-decoration: none;
 }
 
+.section-9__block-wrap__content-text {
+    position: absolute;
+    width: 37%;
+}
+
+.section-9__3-p {
+    width: 81%;
+    position: relative;
+    left: 10%;
+}
+
 .section-mob {
     display: none;
 }
