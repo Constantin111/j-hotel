@@ -728,6 +728,14 @@
         left: 30px;
     }
 
+    .logo-lit-container .section-3__block-content__logo img {
+        width: 150px;
+    }
+
+    .section-4__block-wrap {
+        margin-bottom: 0px;
+    }
+
     .section-5__block-wrap {
         padding-top: 3px;
     }
@@ -848,7 +856,7 @@
     .section-5__block-wrap .premier-title__block-wrap {
         padding: 0px;
         margin-bottom: 46px;
-        margin-top: 82px;
+        margin-top: -20px;
     }
 
     premier-video__block-wrap {
@@ -904,6 +912,10 @@
 
     .wellcome-block__date-item__text {
         font-size: 20px;
+    }
+
+    .section-6-1 .section-5__block-wrap .premier-video__block-wrap {
+        margin-bottom: 0px;
     }
 
     .wellcome-block__date-acces__btn {
@@ -965,12 +977,20 @@
 
     .section-4__content-item-2 {
         width: 100%;
-        margin-bottom: 99px;
-        `
+        margin-bottom: 0px;
     }
 
     .section-4__content-item-3 {
         width: 100%;
+    }
+
+    .section-4__section-3 {
+        position: relative;
+        bottom: -80px !important;
+    }
+
+    .section-block.section-9 .section-3__bottom-text.bottom-tetx-mob {
+        position: relative;
     }
 
     .section-4 {
@@ -978,7 +998,7 @@
         padding-bottom: 21px;
         padding-left: 15px;
         padding-right: 15px;
-        margin-bottom: 30px;
+        /*margin-bottom: 30px;*/
     }
 
     .section-4__block-wrap .section-3__bottom-text.bottom-tetx-mob {
@@ -1003,7 +1023,7 @@
         margin-top: 0px;
         margin-left: 0;
         position: relative;
-        top: -50px;
+        top: 0px;
     }
 
     .section-6__gallery-block {
@@ -1024,7 +1044,7 @@
 
     .section-3__bottom-text {
         position: absolute;
-        bottom: -15px;
+        bottom: 0px;
     }
 
     .section-3__block-wrap .section-3__bottom-text {
@@ -1034,12 +1054,21 @@
 
     .section-9 .section-3__bottom-text {
         position: absolute;
-        bottom: -36px;
+        bottom: -20px;
+    }
+    premier-video__block-subplayer__block {
+        font-size: 16px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 
     .section-4 .section-3__bottom-text {
-        position: absolute;
-        bottom: 20px;
+        position: relative;
+        bottom: -12px;
+    }
+
+    .section-6-1 {
+        padding-top: 36px;
     }
 
     .section-6__video-center {
@@ -1071,7 +1100,7 @@
 
     .premier-video__block-subplayer__block {
         text-align: center;
-        margin-top: 30px;
+        margin-top: 0px;
     }
 
     .section-8__block-text {
@@ -1142,7 +1171,7 @@
     }
 
     .section-4__block-wrap {
-        margin-bottom: 115px;
+        margin-bottom: 0px;
     }
 
     .section-9__block-text {
