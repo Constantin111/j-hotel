@@ -722,6 +722,12 @@ input[type="text"]::placeholder {
 .section-9__block-wrap__content-text {
     position: absolute;
     width: 37%;
+    font-size: 18px;
+}
+
+.section-9__block-wrap__content-text a {
+    color: aliceblue;
+    text-decoration: none;
 }
 
 .section-7__block-video {
@@ -739,6 +745,11 @@ input[type="text"]::placeholder {
 
     height: 566px;
 }
+
+.section-5__gallery-block__item.gallery-block__item-5 {
+    left: 40px;
+}
+
 .section-7__block-video-container {
     background: url("../img/section-7-block-center.png") no-repeat;
     background-size: contain;

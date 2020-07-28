@@ -263,6 +263,12 @@
         padding: 42px;
     }
 
+    .section-9__block-wrap__content-text {
+        position: absolute;
+        width: 37%;
+        font-size: 13px;
+    }
+
 }
 
 @media all and (max-width: 1250px) {
@@ -454,6 +460,7 @@
         height: 238px;
         top: 0px;
         left: 41px;
+        padding: 31px;
     }
 
     .section-7__block-video {
