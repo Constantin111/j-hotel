@@ -668,7 +668,7 @@ input[type="text"]::placeholder {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .section-9__block-wrap {
 

@@ -790,7 +790,6 @@
         font-size: 11px;
         width: 85%;
         padding: 15px;
-        left: 30px;
         z-index: 1;
     }
 
@@ -1096,7 +1095,7 @@
     }
 
     .section-6-1 .section-3__bottom-text {
-        bottom: -27px;
+        bottom: -37px;
     }
 
     .section-6__gallery-block {
@@ -1213,8 +1212,8 @@
 
     .section-9 .section-3__bottom-text {
         position: absolute;
-        bottom: 0px;
-    }
+        bottom: 8px;
+    }0
 
     .section-5-1 .section-5__block-wrap .section-3__bottom-text {
         position: absolute;
@@ -1369,6 +1368,9 @@
          padding: 0px;
         padding-bottom: 0;
     }
+    /*.section-6-1 {*/
+        /*padding-top: 0px;*/
+    /*}*/
 
     .section-8__block-text {
         font-size: 13px;
