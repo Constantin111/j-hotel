@@ -663,11 +663,17 @@ input[type="text"]::placeholder {
     padding-bottom: 300px;
 }
 
-
+.section-9.section-mob {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+}
 .section-9__block-wrap {
 
 }
-.section-9__block-wrap img,.section-10__block-wrap img {
+.section-10__block-wrap img {
     width: 100%;
     max-width: 100%;
 }

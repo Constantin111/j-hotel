@@ -535,8 +535,7 @@
     }
 
     .section-3__block-wrap .mob-top-img, .section-9__block-wrap .mob-top-img {
-        max-width: 88%;
-        margin-left: 42px;
+        /*max-width: 88%;*/
     }
 
     .section-10__block-wrap .mob-top-img {
@@ -692,8 +691,8 @@
     }
 
     .section-9__block-wrap {
-        padding: 20px;
-        padding-bottom: 0;
+        /*padding: 20px;
+        padding-bottom: 0;*/
     }
 
     .section-9__block-text {
@@ -702,7 +701,10 @@
         font-size: 22px;
         width: 85%;
         padding: 15px;
-        left: 84px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .section-block.section-9 .section-3__bottom-text.bottom-tetx-mob {
@@ -1084,8 +1086,6 @@
     }
 
     .section-9__block-wrap .mob-top-img {
-        width: 100%;
-        max-width: 100%;
         height: auto;
         max-height: 100%;
         margin-top: 0px;
