@@ -1238,6 +1238,7 @@
         top: 0px;
         font-size: 10px;
         width: 85%;
+        z-index: 1;
     }
 
     .section-4__content-title {
@@ -1339,6 +1340,21 @@
 
     .section-8__block-text {
         font-size: 13px;
+    }
+
+    .premier-video__block-player iframe {
+        height: 143px;
+        position: relative;
+        top: 2px;
+    }
+
+    .section-6-1 .section-3__bottom-text {
+        bottom: -5px;
+    }
+
+    .section-9__block-wrap {
+         padding: 0px;
+        padding-bottom: 0;
     }
 
     .section-8__block-text {
