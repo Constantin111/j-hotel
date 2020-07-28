@@ -781,6 +781,12 @@
         width: 85%;
         padding: 15px;
         left: 30px;
+        z-index: 1;
+    }
+
+    .section-9__block-wrap {
+        padding: 0px;
+        padding-bottom: 0;
     }
 
     .logo-lit-container .section-3__block-content__logo img {
@@ -890,7 +896,7 @@
     }
 
     .premier-title__block-text p #t {
-        font-size: 18px !important;
+        font-size: 20px !important;
     }
 
     .premier-title__block-text p #d {
@@ -1113,7 +1119,7 @@
 
     .section-9 .section-3__bottom-text {
         position: absolute;
-        bottom: -20px;
+        bottom: 0px;
     }
     .premier-video__block-subplayer__block {
         font-size: 16px;
@@ -1238,7 +1244,6 @@
         top: 0px;
         font-size: 10px;
         width: 85%;
-        z-index: 1;
     }
 
     .section-4__content-title {
@@ -1301,7 +1306,7 @@
     }
 
     .premier-title__block-text p #t {
-        font-size: 14px !important;
+        font-size: 17px !important;
     }
 
     .section-10__block-ready__mob {
