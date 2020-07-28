@@ -742,11 +742,11 @@ input[type="text"]::placeholder {
 .section-7__block-video-container {
     background: url("../img/section-7-block-center.png") no-repeat;
     background-size: contain;
-    width: 86%;
-    height: 480px;
+    width: 76%;
+    height: 481px;
     top: 0px;
-    left: 63px;
-    padding: 65px;
+    left: 117px;
+    padding: 58px;
 }
 .section-mob {
     display: none;
