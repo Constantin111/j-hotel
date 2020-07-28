@@ -724,12 +724,30 @@ input[type="text"]::placeholder {
     width: 37%;
 }
 
+.section-7__block-video {
+    width: 100%;
+    height: -webkit-fill-available;
+}
+
 .section-9__3-p {
     width: 81%;
     position: relative;
     left: 10%;
 }
 
+.section-7__block-center__item section-7__block-center-2 {
+
+    height: 566px;
+}
+.section-7__block-video-container {
+    background: url("../img/section-7-block-center.png") no-repeat;
+    background-size: contain;
+    width: 86%;
+    height: 480px;
+    top: 0px;
+    left: 63px;
+    padding: 65px;
+}
 .section-mob {
     display: none;
 }
