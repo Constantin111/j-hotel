@@ -1056,7 +1056,7 @@
         position: absolute;
         bottom: -20px;
     }
-    premier-video__block-subplayer__block {
+    .premier-video__block-subplayer__block {
         font-size: 16px;
         padding-left: 35px;
         padding-right: 35px;
