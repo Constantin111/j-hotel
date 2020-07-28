@@ -256,10 +256,11 @@
         font-size: 94px;
     }
     .section-7__block-video-container {
-        width: 570px;
+        width: 509px;
         height: 324px;
-        top: 61px;
+        top: 0px;
         left: 57px;
+        padding: 42px;
     }
 
 }
@@ -449,9 +450,9 @@
         font-size: 10px;
     }
     .section-7__block-video-container {
-        width: 417px;
+        width: 372px;
         height: 238px;
-        top: 45px;
+        top: 0px;
         left: 41px;
     }
 
